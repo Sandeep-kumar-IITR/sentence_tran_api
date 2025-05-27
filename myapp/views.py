@@ -5,7 +5,8 @@ import json
 from django.views.decorators.csrf import csrf_exempt
 
 # Load the model once (global)
-model = SentenceTransformer('all-MiniLM-L6-v2')
+# model = SentenceTransformer('all-MiniLM-L6-v2')
+model = SentenceTransformer('paraphrase-MiniLM-L3-v2')
 
 
 @csrf_exempt
